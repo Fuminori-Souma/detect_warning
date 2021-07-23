@@ -1,8 +1,8 @@
-clear all; % ワークスペースからアイテムを削除
+clear all;  % ワークスペースからアイテムを削除
 
-lastwarn(''); % 最後に出た警告の内容をリセット
+lastwarn('');  % 最後に出た警告の内容をリセット
 
-crnt = pwd; % カレントフォルダを格納
+crnt = pwd;  % カレントフォルダを格納
 
 % 以下フォルダを検索対象に追加
 addpath(strcat(crnt, 'folder_A'));
