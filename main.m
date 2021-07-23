@@ -13,8 +13,8 @@ addpath(strcat(crnt, 'folder_C'));
 
 if strcmp(msgID, 'MATLAB:dispatcher:pathWarning')
 
-	% 警告が出た時に実施したい処理を記述
+	%  警告が出た時に実施したい処理を記述
 else
 
-	% 警告が出なかった時に実施したい処理を記述
+	%  警告が出なかった時に実施したい処理を記述
 end
